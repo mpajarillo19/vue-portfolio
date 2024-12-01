@@ -4,13 +4,13 @@ import ContainerComponent from '../UIElements/ContainerComponent.vue'
 
 const displayText = ref('')
 const texts = [
-    'Building modern web applications',
-    'Creating responsive user interfaces',
-    'Crafting seamless user experiences',
-    'Transforming designs into code',
-    'Optimizing web performance',
-    'Building interactive web solutions',
-    'Bringing ideas to life through code'
+    'developing modern web applications',
+    'designing responsive user interfaces',
+    'delivering seamless user experiences',
+    'converting designs into elegant code',
+    'enhancing web performance',
+    'creating interactive web solutions',
+    'transforming ideas into reality'
 ]
 let index = 0
 
@@ -44,7 +44,7 @@ onMounted(typeEffect)
             <div class="flex flex-col items-center justify-center md:flex-row md:justify-between">
                 <div class="hero-text text-center md:text-start mb-20 md:mb-0">
                     <h1>Hello, I'm Migs</h1>
-                    <p>{{ displayText }}<span class="cursor">|</span></p>
+                    <p>I specialize in {{ displayText }}<span class="cursor">|</span></p>
                 </div>
                 <div class="hero-image">
                     <div class="blob"></div>
