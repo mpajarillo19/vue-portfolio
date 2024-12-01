@@ -1,6 +1,8 @@
 <script setup>
 import PageHeaderComponent from '../UIElements/PageHeaderComponent.vue'
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/vue/24/outline'
+import linkedinIcon from '@/assets/images/icons/linkedin.svg'
+import githubIcon from '@/assets/images/icons/github.svg'
 
 const contactInfo = {
     email: 'migspajarillo19@gmail.com',
@@ -12,22 +14,21 @@ const socialLinks = [
     {
         name: 'LinkedIn',
         url: 'https://linkedin.com/in/mpajarillo19',
-        icon: 'linkedin'
+        icon: linkedinIcon
     },
     {
         name: 'GitHub',
         url: 'https://github.com/mpajarillo19',
-        icon: 'github'
+        icon: githubIcon
     }
 ]
-
 </script>
 
 <template>
     <div id="contact" class="contact-page">
         <PageHeaderComponent title="Contact Me" subtitle="Let's connect and create something amazing together" />
 
-        <div class="contact-container" data-aos="fade-up">
+        <div class="contact-container">
             <div class="contact-card">
                 <div class="contact-info">
                     <div class="info-item">
@@ -47,7 +48,7 @@ const socialLinks = [
                 <div class="social-links">
                     <a v-for="social in socialLinks" :key="social.name" :href="social.url" target="_blank"
                         rel="noopener noreferrer" class="social-button">
-                        <img :src="`/src/assets/images/icons/${social.icon}.svg`" :alt="social.name">
+                        <img :src="social.icon" :alt="social.name">
                         <span>{{ social.name }}</span>
                     </a>
                 </div>
@@ -55,6 +56,7 @@ const socialLinks = [
         </div>
     </div>
 </template>
+
 <style lang="scss" scoped>
 .contact-page {
     min-height: 100svh;
