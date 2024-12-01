@@ -68,6 +68,10 @@ const certifications = [
     min-height: 100svh;
     background-color: #E5F2FB;
     padding: 2rem;
+
+    @media (max-width: 1024px) {
+        padding: 1rem;
+    }
 }
 
 .certifications-grid {

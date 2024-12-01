@@ -20,5 +20,9 @@ import ExperienceRoadMap from '@/assets/layouts/ExperienceRoadMap.vue';
     padding: 2rem;
     min-height: 100svh;
     background-color: #CAE6F6;
+
+    @media (max-width:1024px) {
+        padding: 1rem;
+    }
 }
 </style>

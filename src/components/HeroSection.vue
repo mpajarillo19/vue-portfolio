@@ -3,7 +3,15 @@ import { ref, onMounted } from 'vue'
 import ContainerComponent from '../UIElements/ContainerComponent.vue'
 
 const displayText = ref('')
-const texts = ['A Front-End Developer', 'I like to code frontend stuffs']
+const texts = [
+    'Building modern web applications',
+    'Creating responsive user interfaces',
+    'Crafting seamless user experiences',
+    'Transforming designs into code',
+    'Optimizing web performance',
+    'Building interactive web solutions',
+    'Bringing ideas to life through code'
+]
 let index = 0
 
 const typeEffect = async () => {
@@ -34,7 +42,7 @@ onMounted(typeEffect)
     <div id="home" class="container mx-auto lg:px-52 flex flex-col justify-center">
         <div class="hero-page">
             <div class="flex flex-col items-center justify-center md:flex-row md:justify-between">
-                <div class="hero-text mb-20 md:mb-0">
+                <div class="hero-text text-center md:text-start mb-20 md:mb-0">
                     <h1>Hello, I'm Migs</h1>
                     <p>{{ displayText }}<span class="cursor">|</span></p>
                 </div>

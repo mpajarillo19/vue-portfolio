@@ -89,6 +89,8 @@ const socialLinks = [
         background: #f8fafc;
         border-radius: 8px;
         transition: transform 0.2s ease;
+        flex-wrap: wrap;
+        word-break: break-word;
 
         &:hover {
             transform: translateX(10px);
