@@ -48,7 +48,7 @@ onMounted(typeEffect)
                 </div>
                 <div class="hero-image">
                     <div class="blob"></div>
-                    <img src="/src/assets/images/hero-image-bg.png" alt="Hero Image">
+                    <img src="/src/assets/images/hero-image.jpg" alt="Hero Image">
                 </div>
             </div>
         </div>
