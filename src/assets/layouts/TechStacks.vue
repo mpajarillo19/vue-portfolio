@@ -14,11 +14,14 @@ import laravelIcon from '@/assets/images/icons/laravel.svg'
 import vueIcon from '@/assets/images/icons/vue.svg'
 import githubIcon from '@/assets/images/icons/github.svg'
 import gitlabIcon from '@/assets/images/icons/gitlab.svg'
+import photoshopIcon from '@/assets/images/icons/photoshop.svg'
+import virtualboxIcon from '@/assets/images/icons/virtualbox.svg'
+import canvaIcon from '@/assets/images/icons/canva.svg'
 
 const frontendIcons = [htmlIcon, cssIcon, javascriptIcon]
 const backendIcons = [phpIcon, mysqlIcon]
 const frameworkIcons = [bootstrapIcon, tailwindIcon, jqueryIcon, laravelIcon, vueIcon]
-const toolIcons = [githubIcon, gitlabIcon]
+const toolIcons = [githubIcon, gitlabIcon, virtualboxIcon, photoshopIcon, canvaIcon]
 </script>
 
 <template>
