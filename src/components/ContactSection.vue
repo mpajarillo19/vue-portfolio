@@ -27,7 +27,7 @@ const socialLinks = [
     <div id="contact" class="contact-page">
         <PageHeaderComponent title="Contact Me" subtitle="Let's connect and create something amazing together" />
 
-        <div class="contact-container">
+        <div class="contact-container" data-aos="fade-up">
             <div class="contact-card">
                 <div class="contact-info">
                     <div class="info-item">
