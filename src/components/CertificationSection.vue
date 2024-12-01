@@ -48,7 +48,7 @@ const certifications = [
         <PageHeaderComponent title="Certifications" subtitle="Professional IT certifications and achievements" />
 
         <div class="certifications-grid">
-            <div v-for="cert in certifications" :key="cert.credentialId" class="certification-card"
+            <div v-for="(cert, index) in certifications" :key="cert.title" class="certification-card"
                 :data-aos="'fade-up'" :data-aos-delay="index * 100">
                 <div class="card-image">
                     <img :src="cert.image" :alt="cert.title">
@@ -62,6 +62,7 @@ const certifications = [
         </div>
     </div>
 </template>
+
 
 <style lang="scss" scoped>
 .certification-page {

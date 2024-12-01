@@ -4,7 +4,7 @@ import { computed } from 'vue'
 const props = defineProps({
     name: {
         type: String,
-        required: true
+        default: 'img'
     },
     width: {
         type: String,
