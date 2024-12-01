@@ -4,19 +4,19 @@ const experiences = [
         company: 'Payreto Services, Inc.',
         role: 'Front-end Developer - Intern',
         period: '2022 - 2023',
-        description: 'Lorem Ipsum'
+        description: ''
     },
     {
         company: 'Payreto Services, Inc.',
         role: 'Front-end Developer - Associate',
         period: '2023 - 2024',
-        description: 'Lorem Ipsum'
+        description: ''
     },
     {
         company: 'ThinkBIT Solutions, Inc.',
         role: 'Front-end Developer',
         period: '2023 - Current',
-        description: 'Lorem Ipsum'
+        description: ''
     }
 ]
 </script>
