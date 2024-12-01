@@ -25,7 +25,6 @@ const experiences = [
     <div class="roadmap-container">
         <div class="timeline-wrapper">
             <div v-for="(exp, index) in experiences" :key="index" class="experience-item"
-                :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'" :data-aos-delay="index * 100"
                 :class="{ 'left': index % 2 === 0, 'right': index % 2 !== 0 }">
                 <div class="content-box">
                     <h3 class="company">{{ exp.company }}</h3>
