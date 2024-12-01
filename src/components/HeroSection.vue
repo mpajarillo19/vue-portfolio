@@ -34,13 +34,13 @@ onMounted(typeEffect)
     <div id="home" class="container mx-auto lg:px-52 flex flex-col justify-center">
         <div class="hero-page">
             <div class="flex flex-col items-center justify-center md:flex-row md:justify-between">
-                <div class="hero-text mb-10 md:mb-0">
+                <div class="hero-text mb-20 md:mb-0">
                     <h1>Hello, I am</h1>
                     <p>{{ displayText }}<span class="cursor">|</span></p>
                 </div>
                 <div class="hero-image">
                     <div class="blob"></div>
-                    <img src="/src/assets/images/hero-image.png" alt="Hero Image">
+                    <img src="/src/assets/images/hero-image.jpg" alt="Hero Image">
                 </div>
             </div>
         </div>
@@ -52,20 +52,20 @@ onMounted(typeEffect)
     min-height: 100svh;
 
     .hero-image {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         position: relative;
 
         img {
             position: relative;
-            bottom: 15%;
             z-index: 2;
-            border-radius: 100%;
+            border-radius: 50% 50% 100% 100%;
         }
 
         .blob {
             position: absolute;
-            top: 0;
+            top: -25%;
+            left: -20%;
             width: 350px;
             height: 350px;
             background: #E18247;

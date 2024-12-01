@@ -1,5 +1,5 @@
 <script setup>
-import { HomeIcon, UserIcon, DocumentIcon, ChatBubbleLeftRightIcon } from '@heroicons/vue/24/outline'
+import { HomeIcon, UserIcon, DocumentIcon, ChatBubbleLeftRightIcon, AcademicCapIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
@@ -16,10 +16,15 @@ import { HomeIcon, UserIcon, DocumentIcon, ChatBubbleLeftRightIcon } from '@hero
                 </a>
             </li>
             <li>
+                <a href="#certifications">
+                    <AcademicCapIcon class="w-6 h-6" />
+                </a>
+            </li>
+            <!-- <li>
                 <a href="#projects">
                     <DocumentIcon class="w-6 h-6" />
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="#contact">
                     <ChatBubbleLeftRightIcon class="w-6 h-6" />
@@ -28,6 +33,8 @@ import { HomeIcon, UserIcon, DocumentIcon, ChatBubbleLeftRightIcon } from '@hero
         </ul>
     </nav>
 </template>
+
+
 
 
 <style lang="scss">
@@ -39,6 +46,7 @@ html {
     position: fixed;
     bottom: 2rem;
     left: 50%;
+    z-index: 1;
     transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
