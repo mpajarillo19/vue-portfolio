@@ -119,7 +119,7 @@ const certifications = [
             font-weight: 600;
             color: #1F2937;
             margin-bottom: 0.5rem;
-            height: 50px;
+            height: 80px;
         }
 
         .issuer {

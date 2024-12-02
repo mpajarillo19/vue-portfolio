@@ -46,7 +46,7 @@ html {
     position: fixed;
     bottom: 2rem;
     left: 50%;
-    z-index: 2;
+    z-index: 3;
     transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
