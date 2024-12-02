@@ -94,7 +94,9 @@ onMounted(typeEffect)
 
         p {
             font-size: 30px;
-            min-height: 36px;
+            min-height: 100px;
+            height: 100px;
+            overflow: hidden;
         }
     }
 }
